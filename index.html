@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cyberpunk promo</title>
-  <meta name="description" content="Cyberpunk 2077 — ролевая игра в мире Найт-Сити. Узнай больше, участвуй в розыгрыше и купи игру на любую платформу.">
+  <meta name="description" content="Cyberpunk 2077 - ролевая игра в мире Найт-Сити. Узнай больше, участвуй в розыгрыше и купи игру на любую платформу.">
   <link rel="canonical" href="localhost:3000/">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
@@ -106,7 +106,7 @@
               <input type="text" name="name" class="form__input" placeholder="Как тебя зовут?">
               <input type="email" name="email" class="form__input" placeholder="Твой e-mail">
               <label class="form-label">
-                <input type="file" class="form-label__file">
+                <input type="file" class="form-label__file" accept=".png, .jpg, .pdf">
                 <span class="form-label__text">Прикрепить скриншот</span>
                 <span class="form-label__images">.png / .jpg / .pdf</span>
               </label>
@@ -116,7 +116,7 @@
                 <span class="checkbox__text">Согласен на обработку персональных данных</span>
               </label>
             </form>
-            <picture>
+            <picture class="image-wrapper">
               <source srcset="img/xbox-ps5-mobile.png" media="(max-width: 768px)">
               <source srcset="img/xbox-ps5-tablet.png" media="(max-width: 1024px)">
               <img src="img/xbox-ps5.png" alt="фото xbox и ps5" aria-hidden="true" class="game__image">
@@ -157,7 +157,7 @@
         </div>
       </section>
       <section class="buy">
-        <picture>
+        <picture class="buy__image-wrapper">
           <source srcset="img/covers-mobile.jpg" media="(max-width: 768px)">
           <source srcset="img/covers-tablet.jpg" media="(max-width: 1024px)">
           <img src="img/covers.jpg" alt="Обложки игры Киберпанк" aria-hidden="true" class="buy__image">
@@ -169,7 +169,7 @@
             <ul class="buy__list site-list list-reset">
               <li class="buy__item site-list__item" style="background-image: url('img/circle.svg');">Футляр с игровыми дисками</li>
               <li class="buy__item site-list__item" style="background-image: url('img/comments.svg');">Футляр с кодом для загрузки игры и
-                дисками (pc)</li>
+                диском</li>
               <li class="buy__item site-list__item" style="background-image: url('img/images.svg');">Справочник с информацией об игровом
                 мире</li>
             </ul>
